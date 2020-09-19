@@ -1,0 +1,40 @@
+<div class="main">
+    <div class="container">
+        <text class="h1">
+            欢迎使用 Feng 待办事项！
+        </text>
+        <div class="input-add">
+            <input type="text"/>
+            <button>
+                +
+            </button>
+        </div>
+        <div class="filters">
+            <text class="filter">
+                全部
+            </text>
+            <text class="filter">
+                已完成
+            </text>
+            <text class="filter">
+                未完成
+            </text>
+        </div>
+        <div class="todo-list">
+            <div class="todo-item">
+                <input type="checkbox"/>
+                <text>待办1</text>
+<!--                <div class="check-button before">-->
+<!--                    <div class="check-button after"></div>-->
+<!--                </div>-->
+            </div>
+            <div class="todo-item">
+                <input type="checkbox"/>
+                <text>待办2</text>
+<!--                <div class="check-button before">-->
+<!--                    <div class="check-button after" style="opacity: 0"></div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
